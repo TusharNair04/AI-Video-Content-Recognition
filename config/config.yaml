@@ -2,4 +2,4 @@ llama_api_key: "YOUR_LLAMA_API_KEY"
 video_path: "path/to/video.mp4"
 model: "llama3-70b-8192"
 seconds_per_frame: 5
-max_frames: 500
+max_frames: 200
