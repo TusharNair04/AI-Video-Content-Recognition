@@ -42,7 +42,7 @@ The AI Video Content Recognition processes a video to extract frames at regular 
    video_path: "path/to/video.mp4"
    model: "llama3-70b-8192"
    seconds_per_frame: 5
-   max_frames: 500
+   max_frames: 200
    ```
 
 ## Usage
