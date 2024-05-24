@@ -58,7 +58,7 @@ The script will process the video, generate descriptions for the frames, and use
 ## Directory Structure
 
 ```
-video-content-generator/
+AI-Video-Content-Recognition/
 ├── src/
 │   ├── __init__.py
 │   ├── process_video.py
