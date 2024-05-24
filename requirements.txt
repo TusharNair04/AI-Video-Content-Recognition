@@ -1,0 +1,8 @@
+opencv-python
+moviepy
+torch
+torchvision
+Pillow
+pyyaml
+requests
+groq
