@@ -1,4 +1,3 @@
-
 # AI Video Content Recognition
 
 This repository contains a script to generate a summary of a video by analyzing frames using a pre-trained ResNet-50 model and summarizing the frame descriptions using the LLaMA 3 API.
@@ -19,9 +18,10 @@ The AI Video Content Recognition processes a video to extract frames at regular 
 ## Setup
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/TusharNair04/AI-Video-Content-Recognition.git
-   cd video-content-generator
+   cd AI-Video-Content-Recognition
    ```
 
 2. **Install the dependencies:**
@@ -32,9 +32,11 @@ The AI Video Content Recognition processes a video to extract frames at regular 
 ## Configuration
 
 1. **Update the configuration file:**
+
    - Open `config/config.yaml` and update the `llama_api_key` and `video_path` with your API key and the path to your video file.
 
    Example `config/config.yaml`:
+
    ```yaml
    llama_api_key: "YOUR_LLAMA_API_KEY"
    video_path: "path/to/video.mp4"
@@ -46,6 +48,7 @@ The AI Video Content Recognition processes a video to extract frames at regular 
 ## Usage
 
 To generate the video summary, run:
+
 ```bash
 python main.py
 ```
